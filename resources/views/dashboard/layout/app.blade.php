@@ -64,7 +64,7 @@
                 </a>
                 <div class="hor-logo">
                     <a class="main-logo" href="{{ route('index') }}">
-                        <h3 style="font-weight: bolder">{{ env('APP_NAME') }}</h3>
+                        <h3 style="font-weight: bolder; color: white">{{ env('APP_NAME') }}</h3>
 {{--                        <img src="{{ asset('img2/logo.png') }}" class="header-brand-img desktop-logo" alt="logo">--}}
 {{--                        <img src="{{ asset('img2/logo.png') }}" class="header-brand-img desktop-logo-dark" alt="logo">--}}
 
