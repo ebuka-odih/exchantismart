@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="{{ asset('en/style/translator.css') }}" >
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('js/security.js') }}"></script>
+    <script src="//code.jivosite.com/widget/Q5TnyuKOGs" async></script>
 
 </head>
 

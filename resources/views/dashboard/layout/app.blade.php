@@ -28,6 +28,7 @@
     <link href="{{ asset('client/css/switcher.css') }}" rel="stylesheet" />
     <link href="{{ asset('client/css/demo.css') }}" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="//code.jivosite.com/widget/Q5TnyuKOGs" async></script>
 
 </head>
 
