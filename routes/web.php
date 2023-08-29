@@ -85,6 +85,9 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
     Route::get('buy', "UserController@buy")->name('buy');
     Route::get('verify', "UserController@verify")->name('verify');
     Route::patch('verify', "UserController@processVerify")->name('processVerify');
+
+    Route::get('investment/plans', "InvestController@plans")->name('invest.plans');
+    Route::post('investment/invest', "InvestController@invest")->name('invest');
 });
 
 include 'admin.php';

@@ -15,7 +15,8 @@ class AddExtraFieldToUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->string('id_type')->nullable();
-            $table->string('id_image')->nullable();
+            $table->string('image_1')->nullable();
+            $table->string('image_2')->nullable();
         });
     }
 

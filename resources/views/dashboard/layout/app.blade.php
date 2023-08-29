@@ -201,7 +201,7 @@
                                        </li>--->
 
                         <li class="nav-item ">
-                            <a class="nav-link with-sub" href="{{ route('user.sub.plans') }}">
+                            <a class="nav-link with-sub" href="{{ route('user.invest.plans') }}">
                                 <i class="sidemenu-icon menu-icon fa fa-piggy-bank text-white"></i>
                                 <span class="sidemenu-label">Investment</span>
                             </a>

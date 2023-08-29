@@ -109,15 +109,15 @@
                                     ${{ $item->min_deposit }}
                                 </td>
                                 <td class="d-none d-sm-table-cell">
-                                    ${{ $item->max_deposit }}
+                                    ${{ $item->max_deposit() }}
                                 </td>
                                 <td class="text-center">
                                     <div class="btn-group">
-                                        <a href="{{ route('admin.subscription.edit', $item->id) }}" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit">
+                                        <a href="{{ route('admin.packages.edit', $item->id) }}" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit">
                                             <i class="fa fa-pencil-alt"></i>
                                         </a>
 
-                                        <form method="POST" action="{!! route('admin.subscription.destroy', $item->id) !!}" accept-charset="UTF-8">
+                                        <form method="POST" action="{!! route('admin.packages.destroy', $item->id) !!}" accept-charset="UTF-8">
                                             <input name="_method" value="DELETE" type="hidden">
                                             {{ csrf_field() }}
 
