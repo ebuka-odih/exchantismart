@@ -36,6 +36,7 @@ Route::group(['middleware' => ['auth', 'verified', 'admin'], 'prefix' => 'admin'
     Route::resource('subscription', "Admin\SubscriptionController");
     Route::resource('collectable', "Admin\AdminCollectable");
     Route::resource('nftlisting', "Admin\AdminNFTListing");
+    Route::resource('packages', "Admin\AdminPackageController");
 
     // Funding Route
     Route::get('fund/user', "Admin\FundingController@fund")->name('fund');

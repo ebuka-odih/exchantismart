@@ -29,8 +29,7 @@
     <link href="{{ asset('client/css/demo.css') }}" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="//code.jivosite.com/widget/Q5TnyuKOGs" async></script>
-
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 
 <body class="main-body leftmenu ltr dark-theme dark-menu">
 <style>
@@ -93,7 +92,7 @@
                             <h6 class="main-notification-title"> </h6>
 
                         </div>
-                        <a class="dropdown-item border-top" href="profile.php">
+                        <a class="dropdown-item border-top" href="{{ route('user.profile') }}">
                             <i class="fe fe-user"></i> My Profile
                         </a>
                         <a class="dropdown-item" href="{{ route('logout') }}"
@@ -203,6 +202,12 @@
 
                         <li class="nav-item ">
                             <a class="nav-link with-sub" href="{{ route('user.sub.plans') }}">
+                                <i class="sidemenu-icon menu-icon fa fa-piggy-bank text-white"></i>
+                                <span class="sidemenu-label">Investment</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link with-sub" href="{{ route('user.sub.plans') }}">
                                 <svg class="sidemenu-icon menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM344 152c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm96-24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zM344 408c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm104-24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"/></svg>
                                 <span class="sidemenu-label">Subscription</span>
                             </a>
@@ -281,13 +286,13 @@
 
     </style>
     <!-- Main Content-->
-    <div  class="main-content side-content pt-0">
+    <div class="main-content side-content pt-0">
 
         @yield('content')
         <br><br><br> <br><br> <br><br><br>
 
 
-        <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
 
         <!-- Scroll modal -->
         <div class="modal fade" id="depositmodal">
