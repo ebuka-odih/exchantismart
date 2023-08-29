@@ -35,7 +35,7 @@
                             <i class="fa fa-times fa-dollar-sign opacity-50 me-1"></i> Suspend User
                         </a>
                         @else
-                        <a href="{{ route('admin.unsuspend', $user->id) }}" class="btn btn-sm  btn-outline-success m-1">
+                        <a href="{{ route('admin.verifyUser', $user->id) }}" class="btn btn-sm  btn-outline-success m-1">
                             <i class="fa fa-times fa-dollar-sign opacity-50 me-1"></i> Unsuspend User
                         </a>
                         @endif

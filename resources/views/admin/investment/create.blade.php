@@ -50,7 +50,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="mb-4 col-lg-6">
-                                        <label class="form-label" for="example-password-input">Max Amount</label>
+                                        <label class="form-label" for="example-password-input">Min Amount</label>
                                         <input type="number" class="form-control" id="example-password-input" name="min_deposit" >
                                     </div>
                                     <div class="mb-4 col-lg-6">
