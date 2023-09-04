@@ -88,6 +88,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
 
     Route::get('investment/plans', "InvestController@plans")->name('invest.plans');
     Route::post('investment/invest', "InvestController@invest")->name('invest');
+    Route::get('investment/detail/{id}', "InvestController@investDetail")->name('investDetail');
 });
 
 include 'admin.php';

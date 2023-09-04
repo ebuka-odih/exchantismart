@@ -32,13 +32,13 @@
             <div class="row row-sm">
 
                 @foreach($plans as $item)
-                    <div class="col-xxl-3 col-xl-6 col-lg-6 col-sm-6">
+                    <div class="col-xxl-4 col-lg-4 col-sm-12 col-md-12">
                         <div class="card card-pricing custom-card">
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="mb-0">
-                                        <h5 class="fs-16 tx-medium">STANDARD</h5>
-                                        <h2 class="mt-2 mb-0 text-primary">{{ auth()->user()->currency }}@money($item->min_deposit) <span class="text-info fs-18">/ ${{ $item->max_deposit() }}</span></h2>
+                                        <h5 class="fs-16 tx-medium text-uppercase">{{ $item->name }}</h5>
+                                        <h2 class="mt-2 mb-0 text-primary">{{ auth()->user()->currency }}@money($item->min_deposit) <span class="text-info fs-18">/ {{ auth()->user()->currency }}@money($item->max_deposit)</span></h2>
                                         <p class="text-dark mt-3 mb-0 fs-14">High ROI After Trading Session</p>
                                     </div>
                                     <div class="text-end ms-auto">
@@ -51,9 +51,10 @@
                                         <li class="pt-1"><i class="fa fa-check-circle me-2 text-success bg-success-transparent font-weight-bold p-1 tx-12 rounded-circle"></i><span class="tx-semibold">{{ $item->term_days }} Days</span> Duration</li>
 
 
-                                        <li><i class="fa fa-check-circle me-2 text-success bg-success-transparent font-weight-bold p-1 tx-12 rounded-circle"></i><span class="tx-semibold">{{ $item->daily_interest }}%</span>Daily Return </li>
+                                        <li><i class="fa fa-check-circle me-2 text-success bg-success-transparent font-weight-bold p-1 tx-12 rounded-circle"></i><span class="tx-semibold">{{ $item->daily_interest }}% </span>Daily Return </li>
 
 
+                                        <li><i class="fa fa-check-circle me-2 text-success bg-success-transparent font-weight-bold p-1 tx-12 rounded-circle"></i><span class="tx-semibold">Trading</span> Alert</li>
                                         <li><i class="fa fa-check-circle me-2 text-success bg-success-transparent font-weight-bold p-1 tx-12 rounded-circle"></i><span class="tx-semibold">24/7</span> Support</li>
                                     </ul>
 
@@ -76,7 +77,7 @@
                                             <input class="form-control" name="amount" placeholder="1000" type="text" required="">
                                         </div>
 
-                                        <button type="submit"  class="btn ripple btn-primary-transparent btn-block mb-2"> Subscribe to Plan <i class="fa fa-arrow-right ms-1"></i>
+                                        <button type="submit"  class="btn ripple btn-primary-transparent btn-block mb-2"> Invest to Plan <i class="fa fa-arrow-right ms-1"></i>
                                         </button>
 
                                     </form>

@@ -25,8 +25,8 @@ class InvestController extends Controller
         $sub_id = $request->package_id;
         $plan_id = Package::findOrFail($sub_id);
         $sub = new Invest();
-        if ($request->amount <= \auth()->user()->balance){
-            if ($request->get('amount') < $plan_id->min_deposit || $request->get('amount') < $plan_id->max_deposit)
+        if ($request->amount < \auth()->user()->balance){
+            if ($request->get('amount') < $plan_id->min_deposit || $request->get('amount') > $plan_id->max_deposit)
             {
                 return redirect()->back()->with('declined', "Please enter the amount between min/max deposit");
             }else{
@@ -38,10 +38,15 @@ class InvestController extends Controller
                 $user = User::findOrFail($sub->user_id);
                 $user->balance -= $sub->amount;
                 $user->save();
-                return redirect()->route('user.invest.detail', $sub->id);
+                return redirect()->route('user.investDetail', $sub->id);
             }
         }
         return redirect()->back()->with('insufficient', "Sorry! You do not have upto that amount in your balance");
 
+    }
+
+    public function investDetail($id)
+    {
+        return view('dashboard.investment.investment');
     }
 }

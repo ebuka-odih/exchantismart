@@ -37,7 +37,12 @@
                                 <div class="row">
                                     <div class="mb-4 col-lg-4">
                                         <label class="form-label" for="example-text-input">Name</label>
-                                        <input type="text" class="form-control" id="example-text-input" name="name" >
+                                        <select name="name" id="" class="form-control">
+                                            <option value="Silver Level">Silver Level</option>
+                                            <option value="Gold Level">Gold Level</option>
+                                            <option value="Platinum Level">Platinum Level</option>
+                                            <option value="Diamond Level">Diamond Level</option>
+                                        </select>
                                     </div>
                                     <div class="mb-4 col-lg-4">
                                         <label class="form-label" for="example-email-input">Term Days</label>
@@ -64,12 +69,12 @@
                             </div>
 
                         </div>
+                    </form>
                 </div>
 
                 <!-- END Basic Elements -->
 
-                </form>
-        
+
             </div>
         </div>
         <!-- END Elements -->
