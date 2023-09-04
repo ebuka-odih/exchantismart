@@ -45,14 +45,17 @@
                                                       <div class="card-body">
                                                           <div class="row">
                                                               <div class="col-12">
-                                                                  <p class="text-info mb-0">NOTE: Your fund will be approved and added to your investable account within 24HRS.</p>
+                                                                    <div class="alert alert-info fade show" role="alert">
+                                                                        <p>• Copy the wallet address provided below(BTC, ETH, USDT, LTC etc.).</p>
+                                                                        <p>• Make payment from your wallet Address. (Send the equivalent amount stated below for the preferred cryptocurrency).
+                                                                        </p>
+                                                                        <p>• After Making the payment, click on Payment completed.</p>
+                                                                        <p>• Your account will be funded immediately we confirm your payment.</p>
+                                                                    </div>
                                                               </div>
                                                           </div>
 
                                                           <hr class="mb-1">
-
-
-
                                                           <div class="row">
                                                               <div class="col-12">
                                                                   <div class="visible-print text-center">

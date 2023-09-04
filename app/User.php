@@ -75,7 +75,7 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function status()
     {
-        if ($this->status == 1){
+        if ($this->status < 1){
             return "<span class='badge bg-danger'>Unverified</span>";
         }elseif ($this->status > 1){
             return "<span class='badge bg-success'>Verified</span>";
