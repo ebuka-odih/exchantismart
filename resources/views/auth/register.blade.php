@@ -396,7 +396,7 @@
                                         </div>
                                         <div class="form-group text-start">
                                             <label class="tx-medium">Mobile No.</label>
-                                            <input class="form-control" placeholder="Enter Mobile Numeber (Whatsapp Preferred)" type="" name="phone" required="">
+                                            <input class="form-control" placeholder="Enter Mobile Number" type="" name="phone" required="">
                                         </div>
 
                                         <div class="form-group text-start">

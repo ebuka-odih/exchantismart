@@ -73,8 +73,10 @@
             </div>
             <div class="main-header-center">
                 <div class="responsive-logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('img2/logo.png') }}" width="40%" class="mobile-logo" alt="logo"></a>
-                    <a href="{{ route('index') }}"><img src="{{ asset('img2/logo.png') }}" width="40%" class="mobile-logo-dark" alt="logo"></a>
+                    <h3 style="font-weight: bolder; color: white">{{ env('APP_NAME') }}</h3>
+{{--                    <a href="{{ route('index') }}"><img src="{{ asset('img2/logo.png') }}" width="40%" class="mobile-logo" alt="logo"></a>--}}
+{{--                    <a href="{{ route('index') }}"><img src="{{ asset('img2/logo.png') }}" width="40%" class="mobile-logo-dark" alt="logo"></a>--}}
+{{--               --}}
                 </div>
             </div>
             <div class="main-header-right">
