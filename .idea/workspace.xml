@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="790db171-8dfb-4ba3-9fe2-cc7a1ea19055" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/AdminSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AdminSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminDeposit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminDeposit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/transactions/deposits.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/transactions/deposits.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/deposit/payment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/deposit/payment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +195,7 @@
       <workItem from="1693209670038" duration="1829000" />
       <workItem from="1693295227851" duration="8900000" />
       <workItem from="1693327516332" duration="10118000" />
-      <workItem from="1693829941580" duration="4166000" />
+      <workItem from="1693829941580" duration="4777000" />
     </task>
     <servers />
   </component>

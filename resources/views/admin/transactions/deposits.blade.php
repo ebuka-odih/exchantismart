@@ -96,8 +96,8 @@
                                                                                     <form action="{{ route('admin.approve_deposit', $item->id) }}" method="POST">
                                                                                         @csrf
                                                                                         <div class="row">
-                                                                                            <select name="" id="" class="form-control">
-                                                                                                <option >Choose Walllet</option>
+                                                                                            <select name="wallet" id="" class="form-control" required="">
+                                                                                                <option >Choose Wallet</option>
                                                                                                 <option value="main">Main Balance</option>
                                                                                                 <option value="invest">Investment Balance</option>
                                                                                             </select>

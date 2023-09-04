@@ -66,7 +66,6 @@
                                                                       <input id="Amount" required="" placeholder="0.00" type="text" class="form-control cc-cvc" value="{{ $deposit->payment_method->value }}">
                                                                       <div class="input-group-addon">
                                                                           <a href="#" class="btn" data-clipboard-target="#Amount">Copy</a>
-                                                                          {{--                                                            <span data-toggle="popover" data-container="body" data-html="true"  data-content="<div class='text-center one-card'>Amount<div class='visa-mc-cvc-preview'></div></div>"  data-clipboard-target="#foo" data-trigger="hover">$</span>--}}
                                                                       </div>
                                                                   </div>
 
@@ -77,7 +76,7 @@
                                                               <div class="col-12">
                                                                   <label for="Proof" class="mt-3">Proof of Payment</label>
                                                                   <div class="input-group">
-                                                                      <input onchange="ValidateImageExt(this);" required="" type="file" class="form-control btn-block" id="Proof" data-val="true" data-val-required="The Proof field is required." name="reference">
+                                                                      <input required="" type="file" class="form-control btn-block"  data-val="true" data-val-required="The Proof field is required." name="reference">
                                                                   </div>
                                                                   <span class="text-danger field-validation-valid" data-valmsg-for="Proof" data-valmsg-replace="true"></span>
                                                               </div>
@@ -88,8 +87,7 @@
                                                                   <div class="input-group">
                                                                       <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block mt-4">
                                                                           <i class="fa fa-database fa-lg"></i>&nbsp;
-                                                                          <span id="payment-button-amount">Paid</span>
-                                                                          <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                                                          <span >Paid</span>
                                                                       </button>
                                                                   </div>
                                                               </div>
