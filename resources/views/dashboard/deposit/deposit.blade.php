@@ -72,7 +72,7 @@
                                                 <p class="font-weight-bold text-center">Contact us from the live chat or send an email to
                                                     <a href="mailto:support@exchantismart.com">support@exchantismart.com</a> to provide an account to make your deposit</p>
                                             </div>
-                                            <p class="text-muted">Note: Minimum deposit is USD 100 </p>
+                                            <p class="text-muted">Note: Minimum deposit is 5000 USD</p>
                                         </div>
                                     </div>
                                 </div>
@@ -101,18 +101,6 @@
                                                     <option value="wire transfer">Wire Transfer</option>
                                                     <!--<option value="moneyegram">Moneygram</option>-->
                                                     <option value="perfect money">Perfect Money</option>
-                                                </select>
-                                                <span class="input-group-text"><i class="icofont-caret-down"></i></span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group mt-2">
-                                            <label for="to">
-                                                <h6>To</h6>
-                                            </label>
-                                            <div class="input-group">
-                                                <select class="form-control text-primary" name="to" id="to" required="">
-                                                    <option value="trade">Trading</option>
-                                                    <option value="mine">Mining</option>
                                                 </select>
                                                 <span class="input-group-text"><i class="icofont-caret-down"></i></span>
                                             </div>
