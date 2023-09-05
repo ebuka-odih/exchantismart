@@ -37,6 +37,7 @@ class InvestController extends Controller
                 $sub->save();
                 $user = User::findOrFail($sub->user_id);
                 $user->balance -= $sub->amount;
+                $user->invested += $sub->amount;
                 $user->save();
                 return redirect()->route('user.investDetail', $sub->id);
             }

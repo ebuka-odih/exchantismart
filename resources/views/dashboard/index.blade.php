@@ -90,7 +90,7 @@
                                         <div class="transaction-details d-flex">
                                             <div>
                                                 <span class="text-dark tx-bold-12"> Total Invested</span>
-                                                <h5 class="text-muted tx-bold-12" id="deposit"> {{ auth()->user()->currency }} @money($investment)</h5></div>
+                                                <h5 class="text-muted tx-bold-12" id="deposit"> {{ auth()->user()->currency }} @money(auth()->user()->invested)</h5></div>
 
                                         </div>
 
@@ -159,7 +159,7 @@
                             }
                         </script>
                         <!-- TradingView Widget END -->
-                        
+
                         <!-- TradingView Widget BEGIN -->
                         <div class="tradingview-widget-container__widget"></div>
                         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
