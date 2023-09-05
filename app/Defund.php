@@ -2,10 +2,9 @@
 
 namespace App;
 
-use AmrShawky\LaravelCurrency\Facade\Currency;
 use Illuminate\Database\Eloquent\Model;
 
-class Funding extends Model
+class Defund extends Model
 {
     protected $guarded = [];
     public function user()
@@ -41,5 +40,4 @@ class Funding extends Model
             return "<span class='badge bg-warning text text-uppercase'>Canceled</span>";
         }
     }
-
 }
