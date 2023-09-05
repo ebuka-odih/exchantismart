@@ -3,7 +3,7 @@
 
     <div style="" class="main-container container-fluid">
         <div class="inner-body">
-            <div id="mobileshow" class="see"></div>
+            <div id="" class="see"></div>
             <div class="sees hide-mobile"></div>
             <!--Row-->
 

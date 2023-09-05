@@ -63,7 +63,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
     Route::get('withdraw/transactions', "WithdrawController@transactions")->name('withdraw.transactions');
     Route::get('withdraw', "WithdrawController@withdraw")->name('withdraw');
     Route::post('withdraw', "WithdrawController@processWithdraw")->name('processWithdraw');
-    Route::get('WithdrawCapital', "WithdrawController@WithdrawCapital")->name('WithdrawCapital');
+    Route::get('withdrawNotice', "WithdrawController@withdrawNotice")->name('withdrawNotice');
 
 
     Route::get('trade-room', "TradeController@trade")->name('trade');
