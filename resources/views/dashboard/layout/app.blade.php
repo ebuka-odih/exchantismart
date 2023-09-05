@@ -64,19 +64,21 @@
                 </a>
                 <div class="hor-logo">
                     <a class="main-logo" href="{{ route('index') }}">
-                        <h3 style="font-weight: bolder; color: white">{{ env('APP_NAME') }}</h3>
-{{--                        <img src="{{ asset('img2/logo.png') }}" class="header-brand-img desktop-logo" alt="logo">--}}
-{{--                        <img src="{{ asset('img2/logo.png') }}" class="header-brand-img desktop-logo-dark" alt="logo">--}}
+{{--                        <h3 style="font-weight: bolder; color: white">{{ env('APP_NAME') }}</h3>--}}
+                        <img src="{{ asset('img/btc.png') }}" class="header-brand-img desktop-logo" alt="logo">
+                        <img src="{{ asset('img/btc.png') }}" class="header-brand-img desktop-logo-dark" alt="logo">
 
                     </a>
                 </div>
             </div>
             <div class="main-header-center">
                 <div class="responsive-logo">
-                    <h3 style="font-weight: bolder; color: white">{{ env('APP_NAME') }}</h3>
-{{--                    <a href="{{ route('index') }}"><img src="{{ asset('img2/logo.png') }}" width="40%" class="mobile-logo" alt="logo"></a>--}}
-{{--                    <a href="{{ route('index') }}"><img src="{{ asset('img2/logo.png') }}" width="40%" class="mobile-logo-dark" alt="logo"></a>--}}
-{{--               --}}
+                    <a href="{{ route('index') }}">
+                        <img src="{{ asset('img/btc.png') }}" class="mobile-logo" alt="logo">
+                        <h3 style="font-weight: bolder; color: white">{{ env('APP_NAME') }}</h3>
+
+                    </a>
+
                 </div>
             </div>
             <div class="main-header-right">
@@ -123,9 +125,8 @@
         <div class="main-menu main-sidebar main-sidebar-sticky side-menu">
             <div class="main-sidebar-header main-container-1 active">
                 <div class="sidemenu-logo">
-                    <a class="main-logo" href="{{ route('user.dashboard') }}">
-                   <img src=".{{ asset('img2/logo.png') }}" class="header-brand-img icon-logo" alt="logo">
-{{--                        <img src="../main/assets/img/brand/icon.png" class="header-brand-img icon-logo" alt="logo">--}}
+                    <a class="main-logo" href="{{ route('index') }}">
+                        <img src="{{ asset('img/btc.png') }}" class="header-brand-img icon-logo" alt="logo">
                     </a>
                 </div>
                 <div class="main-sidebar-body main-body-1">
