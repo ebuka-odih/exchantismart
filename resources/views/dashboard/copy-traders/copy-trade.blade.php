@@ -95,13 +95,13 @@
 
 
 
-                                <h2>Username: 1T8CV</h2>
-                                <span><strong>Accuracy:</strong> 55%</span><br>
-                                <span><strong>Trades Won in Ratio:</strong>60%</span><br>
-                                <span><strong>Trades lost in Ratio:</strong> 40%</span><br>
-                                <span><strong>Trade Percentage:</strong> 20%</span>
+                                <h2>Username: {{ $item->username }}</h2>
+                                <span><strong>Accuracy:</strong> {{ $item->accuracy }}%</span><br>
+                                <span><strong>Trades Won in Ratio:</strong>{{ $item->won_trades }}%</span><br>
+                                <span><strong>Trades lost in Ratio:</strong> {{ $item->lost_trades }}%</span><br>
+                                <span><strong>Trade Percentage:</strong> {{ $item->total_pec }}%</span>
                                 <br>
-                                <p>Supported By Whirl Wind Invts.</p>
+                                <p>Supported By {{ env('APP_NAME') }}.</p>
 
                                 <form method="POST" action="">
 

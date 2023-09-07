@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="790db171-8dfb-4ba3-9fe2-cc7a1ea19055" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/transactions/deposits.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/transactions/deposits.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/layout/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/copy-traders/copy-trade.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/copy-traders/copy-trade.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +198,7 @@
       <workItem from="1693903719943" duration="4040000" />
       <workItem from="1693931152100" duration="165000" />
       <workItem from="1693931579445" duration="1100000" />
+      <workItem from="1694098869887" duration="336000" />
     </task>
     <servers />
   </component>
