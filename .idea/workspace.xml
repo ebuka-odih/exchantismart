@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="790db171-8dfb-4ba3-9fe2-cc7a1ea19055" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/copy-traders/copy-trade.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/copy-traders/copy-trade.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="790db171-8dfb-4ba3-9fe2-cc7a1ea19055" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +195,7 @@
       <workItem from="1693903719943" duration="4040000" />
       <workItem from="1693931152100" duration="165000" />
       <workItem from="1693931579445" duration="1100000" />
-      <workItem from="1694098869887" duration="336000" />
+      <workItem from="1694098869887" duration="620000" />
     </task>
     <servers />
   </component>
