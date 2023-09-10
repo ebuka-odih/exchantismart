@@ -132,7 +132,7 @@
                         </div>
                     </div>
                     <div class="block-content">
-                        <form action="{{ route('admin.approve_deposit', $item->id) }}" method="POST">
+                        <form action="{{ route('admin.approve_deposit', optional($item->id)) }}" method="POST">
                             @csrf
                             <div class="row">
                                 <select name="wallet" id="" class="form-control" required="">
