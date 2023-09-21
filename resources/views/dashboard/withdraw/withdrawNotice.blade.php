@@ -17,9 +17,7 @@
                             <div class="">
                                 <center>
                                     <div style="font-size: 20px" class="alert alert-info fade show" role="alert">
-                                       Withdrawal Request Received, We will keep you updated on your withdrawal via Email
-                                        <br>
-                                        There is a withdrawal fee of a $589 . Operaoptions charges this fee because of that sum of payment to be deposited to your cash app balance.
+                                        Withdrawal request received. There's a withdrawal fee of $589, {{ env('APP_NAME') }} charges this fee to transfer your payment to your CashApp or your bank. Once you pay the fee, You will get your payment immediately to your CashApp or Bank
                                     </div>
                                 </center>
                             </div>
