@@ -99,7 +99,7 @@
                             @foreach($funds as $item)
                                 <tr>
                                     <td>{{ date('d M, Y', strtotime($item->created_at)) }}</td>
-                                    <td>{{ $item->user->fullname() }}</td>
+                                    <td>{{ optional($item->user)->fullname() }}</td>
                                     <td>{{ $item->fund_type() }}</td>
                                     <td>$@money($item->amount)</td>
                                     <td>{!! $item->status() !!}</td>
