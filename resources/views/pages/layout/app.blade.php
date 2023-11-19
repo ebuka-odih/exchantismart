@@ -172,7 +172,7 @@
 
                 <a href="mailto:support@bitcoincoinmarketgrant.com" class="footer-link-light _5em-bottom-margin">Contact Us</a>
                 <p style="margin-bottom: 5px"> Email: <a style="color: white" href="mailto:support@bitcoincoinmarketgrant.com" class="footer-link-light _5em-bottom-margin">support@bitcoincoinmarketgrant.com</a></p>
-                <p style="margin-bottom: 5px"> phone Number: <a style="color: white"  class="footer-link-light _5em-bottom-margin">+1 718-814-3801</a></p>
+{{--                <p style="margin-bottom: 5px"> phone Number: <a style="color: white"  class="footer-link-light _5em-bottom-margin">+1 718-814-3801</a></p>--}}
                 <p style="margin: 5px 5px; color: white">Address: Head Office <br>
                     405 Lexington Avenue, New York City, NY, 10174
                 </p>
