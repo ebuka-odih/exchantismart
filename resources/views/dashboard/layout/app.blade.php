@@ -31,7 +31,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="4b181279-edc4-4b54-954d-3553ea8f5a66";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
 </head>
 
 <body class="main-body leftmenu ltr dark-theme dark-menu">
@@ -385,7 +385,7 @@
 
 
 
-
+    <script src="//code.tidio.co/a6ctwkykhhr6qctwa83f6rowtjz4ue38.js" async></script>
 
     <!-- End Page -->
     <script src="sweetalert2/sweetalert2.min.js"></script>
@@ -525,98 +525,7 @@
     </script>
 
 
-{{--    <script type="text/javascript">--}}
-{{--        $(function () {--}}
-{{--            $("#withdrawalMethod").change(function () {--}}
-{{--                if ($(this).val() == "Bank Transfer") {--}}
-{{--                    $("#beneficiaryField1").fadeIn();--}}
-{{--                    $("#beneficiaryField2").fadeIn();--}}
-{{--                    $("#beneficiaryField3").fadeIn();--}}
-{{--                    $("#beneficiaryField4").fadeIn();--}}
-{{--                    $("#beneficiaryField5").hide();--}}
-{{--                    $("#beneficiaryField6").hide();--}}
-{{--                    $("#beneficiaryField7").hide();--}}
-{{--                    $("#beneficiaryField8").hide();--}}
-{{--                    $("#beneficiaryField10").hide();--}}
-{{--                }--}}
 
-
-{{--                else if ($(this).val() == "PayPal") {--}}
-{{--                    $("#beneficiaryField5").fadeIn();--}}
-{{--                    $("#beneficiaryField1").hide();--}}
-{{--                    $("#beneficiaryField2").hide();--}}
-{{--                    $("#beneficiaryField3").hide();--}}
-{{--                    $("#beneficiaryField4").hide();--}}
-{{--                    $("#beneficiaryField6").hide();--}}
-{{--                    $("#beneficiaryField7").hide();--}}
-{{--                    $("#beneficiaryField8").hide();--}}
-{{--                    $("#beneficiaryField10").hide();--}}
-{{--                }--}}
-
-{{--                else if ($(this).val() == "Bitcoin") {--}}
-{{--                    $("#beneficiaryField6").fadeIn();--}}
-{{--                    $("#beneficiaryField1").hide();--}}
-{{--                    $("#beneficiaryField2").hide();--}}
-{{--                    $("#beneficiaryField3").hide();--}}
-{{--                    $("#beneficiaryField4").hide();--}}
-{{--                    $("#beneficiaryField5").hide();--}}
-{{--                    $("#beneficiaryField7").hide();--}}
-{{--                    $("#beneficiaryField8").hide();--}}
-{{--                    $("#beneficiaryField10").hide();--}}
-{{--                }--}}
-
-
-
-{{--                else if ($(this).val() == "cashapp") {--}}
-{{--                    $("#beneficiaryField7").fadeIn();--}}
-{{--                    $("#beneficiaryField1").hide();--}}
-{{--                    $("#beneficiaryField2").hide();--}}
-{{--                    $("#beneficiaryField3").hide();--}}
-{{--                    $("#beneficiaryField4").hide();--}}
-{{--                    $("#beneficiaryField6").hide();--}}
-{{--                    $("#beneficiaryField5").hide();--}}
-{{--                    $("#beneficiaryField8").hide();--}}
-{{--                    $("#beneficiaryField10").hide();--}}
-{{--                }--}}
-{{--                else if ($(this).val() == "skrill") {--}}
-{{--                    $("#beneficiaryField8").fadeIn();--}}
-{{--                    $("#beneficiaryField1").hide();--}}
-{{--                    $("#beneficiaryField2").hide();--}}
-{{--                    $("#beneficiaryField3").hide();--}}
-{{--                    $("#beneficiaryField4").hide();--}}
-{{--                    $("#beneficiaryField5").hide();--}}
-{{--                    $("#beneficiaryField7").hide();--}}
-{{--                    $("#beneficiaryField6").hide();--}}
-{{--                    $("#beneficiaryField10").hide();--}}
-{{--                }--}}
-
-
-{{--                else if ($(this).val() == "ethereum") {--}}
-{{--                    $("#beneficiaryField10").fadeIn();--}}
-{{--                    $("#beneficiaryField1").hide();--}}
-{{--                    $("#beneficiaryField2").hide();--}}
-{{--                    $("#beneficiaryField3").hide();--}}
-{{--                    $("#beneficiaryField4").hide();--}}
-{{--                    $("#beneficiaryField5").hide();--}}
-{{--                    $("#beneficiaryField7").hide();--}}
-{{--                    $("#beneficiaryField6").hide();--}}
-{{--                    $("#beneficiaryField8").hide();--}}
-{{--                }--}}
-
-{{--                else if ($(this).val() == "western") {--}}
-{{--                    $("#beneficiaryField5").fadeIn();--}}
-{{--                    $("#beneficiaryField1").hide();--}}
-{{--                    $("#beneficiaryField2").hide();--}}
-{{--                    $("#beneficiaryField3").hide();--}}
-{{--                    $("#beneficiaryField4").hide();--}}
-{{--                    $("#beneficiaryField6").hide();--}}
-{{--                    $("#beneficiaryField7").hide();--}}
-{{--                    $("#beneficiaryField8").hide();--}}
-{{--                    $("#beneficiaryField10").hide();--}}
-{{--                }--}}
-{{--            });--}}
-{{--        });--}}
-{{--    </script>--}}
 </body>
 
 </html>
