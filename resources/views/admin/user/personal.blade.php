@@ -176,6 +176,27 @@
                     </div>
                 </div>
             </form>
+                <hr>
+                <br><br>
+                <h4>Update Withdrawal Notice</h4>
+                <form action="{{ route('admin.notice') }}" method="POST">
+                @csrf
+                    @if(session()->has('success'))
+                        <div class="alert alert-success">
+                            {{ session()->get('success') }}
+                        </div>
+                    @endif
+                <input type="hidden" value="{{ $user->id }}" name="user_id">
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input type="text" name="notice" class="form-control" value="{{ old('notice', optional($user)->notice) }}">
+                    </div>
+                    <div class="col-lg-6">
+                        <button class="btn btn-primary">Update Notice</button>
+                    </div>
+                </div>
+            </form>
 
             <!-- END Latest Friends -->
 

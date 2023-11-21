@@ -56,4 +56,13 @@ class UserController extends Controller
         return redirect()->back()->with('unsuspend', "Account Has Been Unsuspended");
     }
 
+    public function notice(Request $request)
+    {
+        $id = $request->user_id;
+        $user = User::findOrFail($id);
+        $user->notice = $request->notice;
+        $user->save();
+        return redirect()->back()->with('success', "Withdrawal Notice Updated");
+    }
+
 }

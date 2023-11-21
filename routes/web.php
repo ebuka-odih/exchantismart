@@ -3,14 +3,12 @@
 use Illuminate\Support\Facades\Route;
 
 
-
 Route::view('/', 'pages.index')->name('index');
 Route::view('/about', 'pages.about')->name('about');
 Route::view('/blog', 'pages.blog')->name('blog');
 Route::view('/contact', 'pages.contact')->name('contact');
 Route::view('/privacy', 'pages.privacy')->name('privacy');
 Route::view('/payment-method', 'pages.payment')->name('payment');
-Route::view('/cgi-syss/suspendedpage', 'welcome')->name('welcome');
 
 Auth::routes(['verify' => true]);
 
