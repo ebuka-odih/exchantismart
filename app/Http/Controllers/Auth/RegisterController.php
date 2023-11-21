@@ -69,8 +69,6 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'firstname' => ['required', 'string', 'max:255'],
             'lastname' => ['required', 'string', 'max:255'],
-            'country' => ['required', 'string', 'max:255'],
-            'currency' => ['required', 'string', 'max:255'],
             'phone' => ['required', 'string', 'max:255'],
             'username' => ['required', 'string', 'unique:users', 'alpha_dash', 'min:3', 'max:30'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
@@ -89,8 +87,6 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'username'  => $data['username'],
-            'country'  => $data['country'],
-            'currency'  => $data['currency'],
             'phone'  => $data['phone'],
             'referred_by' => $data['referred_by'],
             'referrer_id' => $referrer ? $referrer->id : null,
