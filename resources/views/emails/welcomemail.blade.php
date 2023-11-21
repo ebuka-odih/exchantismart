@@ -9,7 +9,7 @@
     Please login on our website using this...
 </p><br>
 <strong>
-    Username:{{ $user->email }} <br>
+    Email: {{ $user->email }} <br>
     And your password
 </strong>
 
