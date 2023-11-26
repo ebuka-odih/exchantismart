@@ -1,18 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,6 +29,8 @@
     <link href="https://app.whirlwindinvts.pro/main/assets/css/style.css" rel="stylesheet">
     <link href="https://app.whirlwindinvts.pro/main/assets/css/plugins.css" rel="stylesheet">
     <script src="https://app.whirlwindinvts.pro/plugins/sweetalert/js/sweetalert.min.js"></script>
+
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="4b181279-edc4-4b54-954d-3553ea8f5a66";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </head>
 
 <body class="main-body leftmenu ltr dark-theme">

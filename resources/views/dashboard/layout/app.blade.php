@@ -31,7 +31,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="4b181279-edc4-4b54-954d-3553ea8f5a66";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </head>
 
 <body class="main-body leftmenu ltr dark-theme dark-menu">
@@ -385,7 +385,7 @@
 
 
 
-    <script src="//code.tidio.co/a6ctwkykhhr6qctwa83f6rowtjz4ue38.js" async></script>
+{{--    <script src="//code.tidio.co/a6ctwkykhhr6qctwa83f6rowtjz4ue38.js" async></script>--}}
 
     <!-- End Page -->
     <script src="sweetalert2/sweetalert2.min.js"></script>
