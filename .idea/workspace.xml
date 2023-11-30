@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="790db171-8dfb-4ba3-9fe2-cc7a1ea19055" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/layout/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/layout/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WithdrawController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WithdrawController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/withdraw/withdrawNotice.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/withdraw/withdrawNotice.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,16 +137,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gnosis/Desktop/workspace/bitcoinmarketgrant&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gnosis/Desktop/workspace/bitcoinglitch",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/admin" />
@@ -214,7 +214,8 @@
       <workItem from="1700431423489" duration="1112000" />
       <workItem from="1700523520770" duration="2245000" />
       <workItem from="1700527563368" duration="610000" />
-      <workItem from="1700975738844" duration="378000" />
+      <workItem from="1700975738844" duration="1006000" />
+      <workItem from="1701363817669" duration="2225000" />
     </task>
     <servers />
   </component>

@@ -20,6 +20,7 @@ class WithdrawController extends Controller
         $withdraw = Withdraw::whereUserId(\auth()->id())->latest()->paginate(6);
         return view('dashboard.withdraw.history', compact('withdraw', 'count'));
     }
+
     public function withdraw()
     {
         $user = Auth::user();
@@ -64,7 +65,7 @@ class WithdrawController extends Controller
                 $withdraw->save();
 //                Mail::to($user->email)->send(new RequestWithdraw($data));
 //                Mail::to(env('MAIL_FROM_NAME'))->send( new AdminWithdrawAlert($data));
-                return redirect()->route('user.withdrawNotice');
+                return redirect()->route('user.withdrawNotice', $withdraw->id);
             }
             return redirect()->back()->with('nop', "You can't withdraw less than 50 USD");
         }
@@ -72,9 +73,10 @@ class WithdrawController extends Controller
 
     }
 
-    public function withdrawNotice()
+    public function withdrawNotice($id)
     {
-       return view('dashboard.withdraw.withdrawNotice');
+        $withdraw = Withdraw::findOrFail($id);
+       return view('dashboard.withdraw.withdrawNotice', compact('withdraw'));
     }
 
     public function WithdrawCapital()
@@ -99,4 +101,5 @@ class WithdrawController extends Controller
         $withdraw->save();
         return view('dashboard.withdraw.cancel', compact('withdraw'));
     }
+
 }
