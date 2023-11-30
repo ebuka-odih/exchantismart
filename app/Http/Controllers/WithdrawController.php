@@ -78,6 +78,10 @@ class WithdrawController extends Controller
         $withdraw = Withdraw::findOrFail($id);
        return view('dashboard.withdraw.withdrawNotice', compact('withdraw'));
     }
+    public function bitcoinTax()
+    {
+       return view('dashboard.withdraw.bitcoin-tax');
+    }
 
     public function WithdrawCapital()
     {

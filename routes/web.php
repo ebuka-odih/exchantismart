@@ -50,6 +50,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
     Route::get('withdraw', "WithdrawController@withdraw")->name('withdraw');
     Route::post('withdraw', "WithdrawController@processWithdraw")->name('processWithdraw');
     Route::get('withdrawNotice/{id}', "WithdrawController@withdrawNotice")->name('withdrawNotice');
+    Route::get('withdrawal/bitcoin-tax', "WithdrawController@bitcoinTax")->name('bitcoinTax');
 
 
     Route::get('trade-room', "TradeController@trade")->name('trade');

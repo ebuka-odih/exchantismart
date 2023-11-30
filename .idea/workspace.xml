@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="790db171-8dfb-4ba3-9fe2-cc7a1ea19055" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/withdraw/bitcoin-tax.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WithdrawController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WithdrawController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/layout/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard/withdraw/withdrawNotice.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/withdraw/withdrawNotice.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -215,7 +217,7 @@
       <workItem from="1700523520770" duration="2245000" />
       <workItem from="1700527563368" duration="610000" />
       <workItem from="1700975738844" duration="1006000" />
-      <workItem from="1701363817669" duration="2225000" />
+      <workItem from="1701363817669" duration="3395000" />
     </task>
     <servers />
   </component>
