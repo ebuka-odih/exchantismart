@@ -28,7 +28,7 @@ class AddExtraFieldToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn(['id_type', 'id_image']);
+            $table->dropColumn(['id_type', 'image_1', 'image_2']);
         });
     }
 }

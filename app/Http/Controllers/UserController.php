@@ -11,6 +11,7 @@ use App\User;
 use App\Withdraw;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
@@ -90,26 +91,49 @@ class UserController extends Controller
     {
         return view('dashboard.verify');
     }
+
+
     public function processVerify(Request $request)
     {
-
         $request->validate([
-                'id_type' => 'required',
-                'id_image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:7048',
-            ]
-        );
-        $user = User::findOrFail(\auth()->id());
-        if ($request->hasFile('id_image')) {
-            $image = $request->file('id_image');
-            $input['imagename'] = time() . '.' . $image->getClientOriginalExtension();
-            $destinationPath = public_path('/files');
-            $image->move($destinationPath, $input['imagename']);
+            'id_type' => 'required',
+            'image_1' => 'required|image|mimes:jpeg,png,jpg,gif|max:3048',
+            'image_2' => 'required|image|mimes:jpeg,png,jpg,gif|max:3048',
+        ]);
 
-            $user->update(['id_type' => $request->id_type, 'id_image' => $input['imagename']]);
-            return redirect()->back()->with('success', "sent successfully, waiting for approval");
+        $user = User::findOrFail(\auth()->id());
+
+        // Helper function to handle image uploads
+        $this->uploadImage($request->file('image_1'), 'image_1', $user);
+        $this->uploadImage($request->file('image_2'), 'image_2', $user);
+
+        // Database transaction to ensure data consistency
+        DB::beginTransaction();
+
+        try {
+            $user->id_type = $request->id_type;
+            $user->save();
+
+            // Commit the transaction if everything is successful
+            DB::commit();
+        } catch (\Exception $e) {
+            // Rollback the transaction on error
+            DB::rollback();
+            return redirect()->back()->with('error', 'An error occurred. Please try again.');
         }
-        $user->update(['id_type' => $request->id_type, 'id_image' => $request->id_image]);
+
+        return redirect()->back()->with('success', "sent successfully, waiting for approval");
     }
+
+// Helper function to handle image uploads
+    private function uploadImage($file, $fieldName, $user)
+    {
+        $imageName = time() . '_' . $file->getClientOriginalName();
+        $destinationPath = public_path('/files');
+        $file->move($destinationPath, $imageName);
+        $user->$fieldName = $imageName;
+    }
+
 
 
 }

@@ -128,7 +128,14 @@
                 <hr>
                 <strong>ID Type: {{ $user->id_type }}</strong>
                 <br>
-                <img height="200" width="200" src="{{ asset('files/'.$user->id_image) }}" alt="">
+               <div class="row">
+                   <div class="col-lg-6 col-md-12">
+                       <img height="200" width="200" src="{{ asset('files/'.$user->image_1) }}" alt="front ID">
+                   </div>
+                   <div class="col-lg-6 col-md-12 mt-2">
+                       <img height="200" width="200" src="{{ asset('files/'.$user->image_2) }}" alt="Back ID">
+                   </div>
+               </div>
                 <br>
             <hr>
                 <form action="{{ route('admin.defundBal') }}" method="POST">

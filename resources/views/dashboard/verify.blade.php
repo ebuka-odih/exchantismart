@@ -65,9 +65,15 @@
                                             {{ session()->get('success') }}
                                         </div>
                                     @endif
-                                   <div class="container">
+                                    @if(session()->has('error'))
+                                        <div class="alert alert-danger">
+                                            {{ session()->get('error') }}
+                                        </div>
+                                    @endif
+                                   <div class="container mt-5">
                                        <div class="row mb-3">
-                                           <div class="col-sm-12 col-md-6">
+                                           <div class="col-sm-12 col-md-12">
+                                               <label for="">ID Type</label>
                                                <select name="id_type" id="" class="form-control">
                                                    <option value="International Passport">International Passport</option>
                                                    <option value="Driver License">Driver's License</option>
@@ -77,11 +83,16 @@
                                        </div>
                                        <div class="row mb-12">
                                            <div class="col-sm-12 col-md-6">
-                                               <input type="file" name="id_image" class="form-control" >
+                                               <label for="">ID Image Front</label>
+                                               <input type="file" name="image_1" class="form-control" >
+                                           </div>
+                                           <div class="col-sm-12 col-md-6">
+                                               <label for="">ID Image Back</label>
+                                               <input type="file" name="image_2" class="form-control" >
                                            </div>
                                        </div>
                                    </div>
-                                    <div class="col-md-8 mx-auto">
+                                    <div class="col-md-4 mx-auto">
                                         <br>
                                         <button type="submit"  class="btn btn-info col-sm-12">Upload Identification</button>
                                     </div>
