@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="790db171-8dfb-4ba3-9fe2-cc7a1ea19055" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2023_08_20_184723_add_extra_field_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_08_20_184723_add_extra_field_to_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/verify.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/withdraw/bitcoin-tax.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/withdraw/bitcoin-tax.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +216,7 @@
       <workItem from="1701363817669" duration="5362000" />
       <workItem from="1701645914229" duration="1398000" />
       <workItem from="1701786450908" duration="626000" />
-      <workItem from="1701890702928" duration="3279000" />
+      <workItem from="1701890702928" duration="4307000" />
     </task>
     <servers />
   </component>
