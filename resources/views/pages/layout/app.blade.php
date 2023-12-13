@@ -88,7 +88,9 @@
         }
     </style>
 
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="4b181279-edc4-4b54-954d-3553ea8f5a66";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+    <script src="//code.jivosite.com/widget/kAODhRe8pX" async></script>
+
 </head>
 <body>
 <div class="w-embed w-iframe">
